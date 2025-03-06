@@ -17,6 +17,7 @@
 |-- database
     |-- migrations
         |-- .gitkeep
+|-- export_20250306130844.tar.gz.enc
 |-- favicon.png
 |-- jsconfig.json
 |-- package-lock.json
