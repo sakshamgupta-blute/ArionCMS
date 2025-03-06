@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "global_settings",
+  "info": {
+    "singularName": "global-setting",
+    "pluralName": "global-settings",
+    "displayName": "GlobalSetting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "headerSocialLinks": {
+      "displayName": "headerSocialLinks",
+      "type": "component",
+      "repeatable": true,
+      "component": "social-links.header-social-links"
+    },
+    "footerSocialLinks": {
+      "displayName": "footerSocialLinks",
+      "type": "component",
+      "repeatable": true,
+      "component": "social-links.footer-social-links"
+    },
+    "HeroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

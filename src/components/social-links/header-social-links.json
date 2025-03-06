@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_social_links_header_social_links",
+  "info": {
+    "displayName": "headerSocialLinks"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "iconClass": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string"
+    },
+    "hoverText": {
+      "type": "string"
+    }
+  }
+}

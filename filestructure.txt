@@ -1,0 +1,64 @@
+|-- .env
+|-- .env.example
+|-- .gitignore
+|-- .strapi
+    |-- client
+        |-- app.js
+        |-- index.html
+|-- .strapi-updater.json
+|-- README.md
+|-- config
+    |-- admin.js
+    |-- api.js
+    |-- database.js
+    |-- middlewares.js
+    |-- plugins.js
+    |-- server.js
+|-- database
+    |-- migrations
+        |-- .gitkeep
+|-- favicon.png
+|-- jsconfig.json
+|-- package-lock.json
+|-- package.json
+|-- public
+    |-- robots.txt
+    |-- uploads
+        |-- .gitkeep
+        |-- large_logo_01da7cd2c3.png
+        |-- large_slider_b52e6c2659.jpg
+        |-- logo_01da7cd2c3.png
+        |-- medium_logo_01da7cd2c3.png
+        |-- medium_slider_b52e6c2659.jpg
+        |-- slider_b52e6c2659.jpg
+        |-- small_logo_01da7cd2c3.png
+        |-- small_slider_b52e6c2659.jpg
+        |-- thumbnail_logo_01da7cd2c3.png
+        |-- thumbnail_slider_b52e6c2659.jpg
+|-- src
+    |-- admin
+        |-- app.example.js
+        |-- vite.config.example.js
+    |-- api
+        |-- .gitkeep
+        |-- global-setting
+            |-- content-types
+                |-- global-setting
+                    |-- schema.json
+            |-- controllers
+                |-- global-setting.js
+            |-- routes
+                |-- global-setting.js
+            |-- services
+                |-- global-setting.js
+    |-- components
+        |-- social-links
+            |-- footer-social-links.json
+            |-- header-social-links.json
+    |-- extensions
+        |-- .gitkeep
+    |-- index.js
+|-- types
+    |-- generated
+        |-- components.d.ts
+        |-- contentTypes.d.ts
