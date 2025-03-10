@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_terms_and_condition_section_sections",
+  "info": {
+    "displayName": "sections"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

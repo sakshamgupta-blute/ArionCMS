@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "privacy_policies",
+  "info": {
+    "singularName": "privacy-policy",
+    "pluralName": "privacy-policies",
+    "displayName": "Privacy-Policy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text",
+      "required": true
+    },
+    "lastUpdated": {
+      "type": "date",
+      "required": true
+    },
+    "sections": {
+      "displayName": "sections",
+      "type": "component",
+      "repeatable": true,
+      "component": "privacy-policy-section.sections",
+      "required": true
+    }
+  }
+}

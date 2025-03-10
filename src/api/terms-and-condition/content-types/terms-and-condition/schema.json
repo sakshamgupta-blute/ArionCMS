@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "terms_and_conditions",
+  "info": {
+    "singularName": "terms-and-condition",
+    "pluralName": "terms-and-conditions",
+    "displayName": "Terms and Condition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "intro": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "sections": {
+      "displayName": "sections",
+      "type": "component",
+      "repeatable": true,
+      "component": "terms-and-condition-section.sections"
+    }
+  }
+}

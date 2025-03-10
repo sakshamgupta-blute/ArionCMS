@@ -1,17 +1,15 @@
 {
   "collectionName": "components_social_links_footer_social_links",
   "info": {
-    "displayName": "footerSocialLinks"
+    "displayName": "footerSocialLinks",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "link": {
+    "url": {
       "type": "string"
     },
-    "iconClass": {
-      "type": "string"
-    },
-    "colorClass": {
+    "label": {
       "type": "string"
     }
   }
